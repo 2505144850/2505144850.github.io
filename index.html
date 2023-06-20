@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- function getoutword (id,fileName) {
+  var header = "<html xmlns:o='urn:schemas-microsoft-com:office:office' " +
+    "xmlns:w='urn:schemas-microsoft-com:office:word' " +
+    "xmlns='http://www.w3.org/TR/REC-html40'>" +
+    "<head><Meta charset='utf-8'><title>Export HTML to Word Document with JavaScript</title></head><body>"
+  var footer = '</body></html>'
+  var sourceHTML = header + document.getElementById(id).innerHTML + footer
+ 
+  var source = 'data:application/vnd.ms-word;charset=utf-8,' + encodeURIComponent(sourceHTML)
+  var fileDownload = document.createElement('a')
+  document.body.appendChild(fileDownload)
+  fileDownload.href = source
+  fileDownload.download = fileName // 下载名称
+  fileDownload.click()
+  document.body.removeChild(fileDownload)
+}
+ 
+export default getoutword -->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link href="styles/style.css" rel = "stylesheet" />
+        <link href="https://fonts.font.im/css?family=Open+Sans" rel="stylesheet" type="text/css">
+        <title>This is FireFox Web Test Page</title>
+    </head>
+    
+    <body>
+        
+        <h1>Mozilla is cool</h1>
+        <img class="imgFirefox" src = "images/firefox-01.png" alt = "这是一张火狐标志的图片：一只毛发俱现的火红狐狸，卷曲抱着地球。" title="The Firefox logo: a flaming fox surrounding the Earth." />
+        <p>At Mozilla, we're a global community of</p>
+        <ul>
+            <li>technologists</li>
+            <li>thinkers</li>
+            <li>builders</li>
+        </ul>
+        <p><font>working together to keep the Internet alive and accessible, so people worldwide can beinformed contributors and creators of the Web, We believe this act of human collaborationacross an open platform is essential to individual growth and our collective future.</font></p>
+        <!-- <br/> -->
+        <p><font>Read the <a href="https://www.firefox.com" target ="_blank" >Mozilla Manifesto</a> to learn even more about the values and principles that guide the pursuit of our mission.</font></p>
+        <br/>
+        <button>Change Name</button>
+        <script src="scripts/main.js" defer></script>
+    </body>
+</html>
